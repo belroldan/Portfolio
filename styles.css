@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fffbf7 !important;
+    color: #291e11;
+}
+
+.name h1 {
+    font-size: 5em !important; 
+}
+
+.name {
+    text-align: center; /* Center the text horizontally */
+    position: absolute;
+    top: 50%;           /* Move the element down by 50% of the viewport height */
+    left: 50%;          /* Move the element to the right by 50% of the viewport width */
+    transform: translate(-50%, -50%); /* Center the element both vertically and horizontally */
+}
+
+h2 {
+    text-align: center;
+}
+
+h5 {
+    font-size: 3em !important;
+    text-align: center;
+}
+
+p {
+    max-width: 50%;
+    text-align: center;
+    margin: auto;
+}
+
+.intro, .skills, .me, .journey, .contact {
+    margin-left: 20px;
+    padding: 70px;
+}
+
+
+ul {
+    text-align: center;
+    list-style: inside;
+}
+
+.container {
+    margin-top: 1000px;
+
+}
