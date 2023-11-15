@@ -8,10 +8,25 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/c2ce5bd34b.js" crossorigin="anonymous"></script>
-    <!-- Poner icono de pagina el café que tengo tatuado -->
+    <link rel="icon" href="/img/png-clipart-computer-icons-code-symbol-coding-miscellaneous-angle.png">
 </head>
 <body>
-    <div class="name">
+
+    <nav class="navbar navbar-light">
+        <strong>
+        <a class="navbar-brand" href="#" class="link">
+            <i class="fas fa-coffee" style="color: #fffbf7;" id="coffee"></i>
+             &lt;Bel's portfolio&gt;
+        </a>
+    </strong>
+    <a href="index.html#intro" class="link">Introduction</a>
+    <a href="index.html#skills" class="link">Skills</a>
+    <a href="index.html#me" class="link">Why me?</a>
+    <a href="index.html#journey" class="link">Journey</a>
+    <a href="index.html#contact" class="link">Contact</a>
+      </nav>
+
+<div class="name">
     <h1>Belén Roldán</h1>
     <h2>Front End Developer</h2>
 </div>
@@ -19,8 +34,8 @@
 
 <div class="container">
 
-<div class="intro">
-    <!--  PONER UNA IMAGEN MIA O ALGO (REDONDEADA)-->
+<div class="intro" id="intro">
+    
     <h5>👋 Hello, World!</h5>
     <p>I'm Belén, a passionate and aspiring front-end developer eager to 
         embark on my journey in the dynamic world of IT. With a solid foundation 
@@ -28,16 +43,23 @@
          and user-friendly web experiences.</p>
 </div>
 
-<div class="skills">
+<div class="skills" id="skills">
     <h5>🛠️ Skills at a Glance:</h5>
     <ul>
         <li><strong>HTML/CSS:</strong> Proficient in crafting pixel-perfect, responsive web layouts with clean and semantic code.</li>
         <li><strong>JavaScript:</strong> Building interactive and intuitive features that breathe life into web applications.</li>
         <li><strong>Bootstrap:</strong> Harnessing the power of Bootstrap to expedite the development process and ensure mobile-first design.</li>
     </ul>
+
+    <div class="stack"> 
+      <i class="fa-brands fa-html5" style="color: #ff5900;"></i>
+        <i class="fa-brands fa-css3-alt" style="color: #005eff;"></i>
+        <i class="fa-brands fa-bootstrap" style="color: #6600ff;"></i>
+        <i class="fa-brands fa-square-js" style="color: #fdcf2b;"></i>
+    </div>
 </div>
 
-<div class="me">
+<div class="me" id="me">
     <h5>🤝 Why Me?</h5>
     <p>I thrive in a collaborative environment and enjoy working in teams where diverse perspectives converge to create remarkable 
         solutions. As a proactive and responsible developer, I take pride in my ability to communicate effectively, ensuring project
@@ -45,20 +67,67 @@
          trends and technologies.</p>
 </div>
 
-<div class="journey">
+<div class="journey" id="journey">
     <h5>🚀 My Journey Begins Here:</h5>
     <p>My GitHub portfolio is a testament to my dedication and the evolution of my skills as a front-end developer. Each project represents
          a chapter in my learning journey, and I can't wait to add even more to it.</p>
     <p>If you're looking for a developer who is not only passionate about front-end development but also possesses the soft skills to thrive
          in a collaborative environment, look no further. Let's connect and explore how I can contribute to your next exciting project!</p>
+
+         <div class="projects">
+         <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+            <a href="https://belroldan.github.io/ecommerce-JAP/" id="project-1">
+              <div class="card h-70">
+                <img src="/img/JAP-ecommerce.png" class="card-img-top">
+                <div class="card-body">
+                  <h5 class="card-title">E-commerce</h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Made with HTML, CSS, Bootstrap and JavaScript.</small>
+                </div>
+            </a>
+              </div>
+            </div>
+            <div class="col">
+                <a href="https://belroldan.github.io/JAPflix/" id="project-2">
+              <div class="card h-70">
+                <img src="/img/Japflix.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">JapFlix</h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Search bar inspired by Netflix.</small>
+                </div>
+            </a>
+              </div>
+            </div>
+            <div class="col">
+              <a href="https://belroldan.github.io/CRUD/" id="project-3">
+              <div class="card h-70">
+                <img src="/img/CRUD.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">CRUD</h5>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Basic data base functions. </small>
+                </div>
+              </div>
+            </a>
+            </div>
+          </div> 
+</div>
 </div>
 </div>
 
-<div class="contact">
-    <h5>📧 Contact Me:</h5>
-    <p><a href="mailto:belenroldaninfo@gmail.com"><i class="fa-solid fa-square-envelope" style="color: #291e11;"></i> Email</a></p>
-    <p><a href="https://www.linkedin.com/in/belenroldan-html/"><i class="fa-brands fa-linkedin" style="color: #291e11;"></i> Linkedin</a></p>
-    <p><a href="https://github.com/belroldan"><i class="fa-brands fa-github" style="color: #291e11;"></i> GitHub</a></p>
-</div>
+<footer>
+    <div class="contact" id="contact">
+        <h5>Contact Me:</h5>
+            <p><a target="_blank" href="mailto:belenroldaninfo@gmail.com"><i class="fa-solid fa-square-envelope" id="contact-icon"></i> Email</a></p>
+            <p><a target="_blank" href="https://www.linkedin.com/in/belenroldan-html/"><i class="fa-brands fa-linkedin" id="contact-icon"></i> Linkedin</a></p>
+            <p><a target="_blank" href="https://github.com/belroldan"><i class="fa-brands fa-github" id="contact-icon"></i> GitHub</a></p>
+    </div>
+</footer>
+
 </body>
 </html>
